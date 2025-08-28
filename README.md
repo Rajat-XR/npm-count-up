@@ -8,12 +8,6 @@ A lightweight, high-performance, and dependency-free vanilla JavaScript library 
 
 ---
 
-### ➤ Live Demo
-
-**[Explore the features on CodePen](https://codepen.io/your-username/pen/your-pen-id)** _(Note: You can create a free CodePen to showcase these examples!)_
-
----
-
 ## ✨ Features
 
 - **✅ Dual API:** Use with simple HTML `data-*` attributes for automatic scroll-based animations, or use the JavaScript API for full programmatic control.
