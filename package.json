@@ -1,0 +1,38 @@
+{
+  "name": "@rajatjain/count-up",
+  "version": "1.0.0",
+  "description": "A zero-dependency, high-performance, and simple utility to animate numbers counting up when they scroll into view.",
+  "main": "dist/count-up.min.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "terser index.js -o dist/count-up.min.js -c -m --comments /Copyright/"
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajat-XR/npm-count-up.git"
+  },
+  "keywords": [
+    "count-up",
+    "counter",
+    "animation",
+    "number",
+    "scroll",
+    "vanilla-js",
+    "lightweight"
+  ],
+  "author": "rajatjain",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Rajat-XR/npm-count-up/issues"
+  },
+  "homepage": "https://github.com/Rajat-XR/npm-count-up#readme",
+  "devDependencies": {
+    "terser": "^5.24.0"
+  }
+}
