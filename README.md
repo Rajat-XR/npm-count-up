@@ -1,6 +1,6 @@
 # @rajatjain/count-up
 
-A zero-dependency, high-performance, and simple vanilla JavaScript utility to animate numbers counting up when they scroll into view.
+A lightweight, zero-dependency, high-performance, and simple vanilla JavaScript utility to animate numbers counting up when they scroll into view.
 
 [![NPM Version](https://img.shields.io/npm/v/@rajatjain/count-up.svg)](https://www.npmjs.com/package/@rajatjain/count-up)
 [![License](https://img.shields.io/npm/l/@rajatjain/count-up.svg)](https://github.com/Rajat-XR/npm-count-up/blob/main/LICENSE)
