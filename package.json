@@ -1,6 +1,6 @@
 {
   "name": "@rajatjain/count-up",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A zero-dependency, high-performance, and simple utility to animate numbers counting up when they scroll into view.",
   "main": "dist/count-up.min.js",
   "module": "index.js",
