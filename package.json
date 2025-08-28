@@ -1,11 +1,17 @@
 {
   "name": "@rajatjain/count-up",
-  "version": "1.0.3",
-  "description": "A zero-dependency, high-performance, and simple utility to animate numbers counting up when they scroll into view.",
+  "version": "1.1.0",
+  "description": "A lightweight and high-performance vanilla JS library to animate numbers. Supports scroll-based and manual controls.",
   "main": "dist/count-up.min.js",
   "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./dist/count-up.min.js"
+    }
+  },
   "scripts": {
-    "build": "terser index.js -o dist/count-up.min.js -c -m --comments /Copyright/"
+    "build": "terser index.js -o dist/count-up.min.js --module -c -m --comments /Copyright/"
   },
   "files": [
     "dist",
@@ -24,7 +30,9 @@
     "number",
     "scroll",
     "vanilla-js",
-    "lightweight"
+    "lightweight",
+    "animate",
+    "odometer"
   ],
   "author": "rajatjain",
   "license": "Apache-2.0",
